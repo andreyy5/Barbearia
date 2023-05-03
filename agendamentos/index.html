@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Agendamentos - Barbearia Masculina</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+  <header>
+    <h1>Agendamentos</h1>
+  </header>
+  
+  <!--Formulario de agendamento-->
+  
+  <form>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+    <label for="phone">Telefone:</label>
+    <input type="tel" id="phone" name="phone" placeholder="(99) 99999-9999" required>
+
+    <label for="date">Data:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Horário:</label>
+    <input type="time" id="time" name="time" required>
+
+    <label for="service">Serviço:</label>
+    <select id="service" name="service">
+      <option value="corte">Corte de Cabelo</option>
+      <option value="barba">Barba</option>
+      <option value="corte-e-barba">Corte e Barba</option>
+    </select>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" placeholder="Deixe uma mensagem"></textarea>
+
+    <input type="submit" value="Agendar">
+  </form>
+</body>
+</html>
