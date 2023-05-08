@@ -2,12 +2,9 @@
 body {
   background-image: url('../Site\ Pós\ login/background.png') ;
   font-family: sans-serif;
-  color: #fff;
-  margin: 0;
-  padding: 0;
 }
 
-/* Estilos do cabeçalho */
+/* Estilos do cabeçalho
 header {
   color: #fff;
   padding: 20px;
@@ -20,7 +17,7 @@ h1 {
 }
 
 /* Estilos do formulário */
-form {
+/* form {
   background-color: #9292927c;
   padding: 40px;
   margin: 80px;
@@ -31,7 +28,6 @@ form {
 }
 
 label {
-  display: block;
   margin-bottom: 10px;
   display: block;
   margin-top: 10px;
@@ -40,7 +36,7 @@ label {
 }
 
 input[type=text], input[type=date], input[type=time], input[type=email], input[type=tel], textarea {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: none;
@@ -70,6 +66,6 @@ select{
   margin-bottom: 20px;
   display: block;
   margin: 0 auto;
-} 
+}  */
 
-
+ */
